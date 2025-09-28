@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML - Website Pembelajaran Programmer</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/modul.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Logo Belajar HTML">
+                <h1>Belajar HTML</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Beranda</a></li>
+                    <li><a href="#modul">Modul</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Belajar HTML dari Dasar hingga Mahir</h2>
+                <p>Website pembelajaran interaktif untuk mempelajari HTML dengan modul terstruktur dan contoh kode yang mudah dipahami.</p>
+                <a href="#modul" class="btn">Mulai Belajar</a>
+            </div>
+        </section>
+
+        <section id="modul" class="modul-section">
+            <div class="container">
+                <h2>Modul Pembelajaran HTML</h2>
+                <div class="modul-list">
+                    <div class="modul-item" data-modul="pengenalan">
+                        <h3>1. Pengenalan HTML</h3>
+                        <p>Memahami dasar-dasar HTML, struktur dokumen, dan tag dasar.</p>
+                        <button class="btn-modul">Buka Modul</button>
+                    </div>
+                    <div class="modul-item" data-modul="dasar">
+                        <h3>2. Elemen Dasar HTML</h3>
+                        <p>Mempelajari heading, paragraf, break line, dan horizontal rule.</p>
+                        <button class="btn-modul">Buka Modul</button>
+                    </div>
+                    <div class="modul-item" data-modul="formatting">
+                        <h3>3. Text Formatting</h3>
+                        <p>Format teks: bold, italic, underline, dan elemen teks lainnya.</p>
+                        <button class="btn-modul">Buka Modul</button>
+                    </div>
+                    <div class="modul-item" data-modul="link-list">
+                        <h3>4. Link dan List</h3>
+                        <p>Membuat hyperlink, list tidak terurut, dan list terurut.</p>
+                        <button class="btn-modul">Buka Modul</button>
+                    </div>
+                    <div class="modul-item" data-modul="tabel">
+                        <h3>5. Tabel HTML</h3>
+                        <p>Membuat dan memformat tabel dengan berbagai atribut.</p>
+                        <button class="btn-modul">Buka Modul</button>
+                    </div>
+                    <div class="modul-item" data-modul="form">
+                        <h3>6. Form HTML</h3>
+                        <p>Membuat form input, textarea, dropdown, checkbox, dan button.</p>
+                        <button class="btn-modul">Buka Modul</button>
+                    </div>
+                    <div class="modul-item" data-modul="semantic">
+                        <h3>7. HTML5 Semantic</h3>
+                        <p>Elemen semantik: header, nav, section, article, footer, dll.</p>
+                        <button class="btn-modul">Buka Modul</button>
+                    </div>
+                    <div class="modul-item" data-modul="layout">
+                        <h3>8. Layout HTML</h3>
+                        <p>Membuat layout website dengan HTML dan CSS.</p>
+                        <button class="btn-modul">Buka Modul</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="modul-content">
+            <div class="container">
+                <div id="modul-display">
+                    <div class="placeholder">
+                        <h3>Pilih modul untuk mulai belajar</h3>
+                        <p>Klik pada salah satu modul di atas untuk menampilkan konten pembelajaran di sini.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tentang" class="about-section">
+            <div class="container">
+                <h2>Tentang Website Ini</h2>
+                <p>Website ini dirancang untuk memudahkan proses belajar HTML bagi pemula. Setiap modul disusun secara bertahap dari dasar hingga tingkat lanjut, dengan contoh kode dan penjelasan yang mudah dipahami.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="kontak">
+        <div class="container">
+            <p>&copy; 2023 Belajar HTML. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn With Me</title>
+    <link rel="stylesheet" href="/Home/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">EL.<span>LEARN.ID</span></h1>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tutorials">Tutorial</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h2>Belajar Bahasa Pemrograman dengan Mudah</h2>
+                <p>Step-by-step tutorial untuk pemula sampai mahir</p>
+                <button class="cta-button" onclick="mulaiBelajar('html')">Mulai Belajar</button>
+            </div>
+        </section>
+
+        <section id="tutorials" class="tutorials-section">
+            <div class="container">
+                <h2 class="section-title">Tutorial Step-by-Step</h2>
+                <div class="tutorials-grid">
+                    <!-- Step 1 -->
+                    <div class="tutorial-card step-active">
+                        <div class="step-number">1</div>
+                        <h3>HTML</h3>
+                        <p>Memahami konsep dasar HTML</p>
+                        <ul class="step-details">
+                            <li>Apa itu Html?</li>
+                            <li>Kegunaan Dari Html</li>
+                            <li>Hello World pertama</li>
+                        </ul>
+                        <button class="learn-button" onclick="pelajari('html')">Pelajari</button>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="tutorial-card">
+                        <div class="step-number">2</div>
+                        <h3>CSS</h3>
+                        <p>Mengenal CSS untuk merubah tampilan project</p>
+                        <ul class="step-details">
+                            <li>Apa itu CSS?</li>
+                            <li>Kegunaan CSS</li>
+                            <li>Merubah Tampilan Dengan CSS</li>
+                        </ul>
+                        <button class="learn-button">Pelajari</button>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="tutorial-card">
+                        <div class="step-number">3</div>
+                        <h3>Java Script</h3>
+                        <p>Mengontrol alur program dengan kondisi dan perulangan</p>
+                        <ul class="step-details">
+                            <li>Pengenalan Peran Java Script</li>
+                            <li>Cara Membuat Program Java Script</li>
+                            <li>Variable</li>
+                        </ul>
+                        <button class="learn-button" onclick="pelajari">Pelajari</button>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="tutorial-card">
+                        <div class="step-number">4</div>
+                        <h3>Fungsi dan Method</h3>
+                        <p>Membuat kode yang terorganisir dan dapat digunakan kembali</p>
+                        <ul class="step-details">
+                            <li>Deklarasi fungsi</li>
+                            <li>Parameter dan return value</li>
+                            <li>Scope variable</li>
+                        </ul>
+                        <button class="learn-button">Pelajari</button>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="tutorial-card">
+                        <div class="step-number">5</div>
+                        <h3>Struktur Data</h3>
+                        <p>Mengelola data secara efisien dengan struktur yang tepat</p>
+                        <ul class="step-details">
+                            <li>Array dan List</li>
+                            <li>Object dan Class</li>
+                            <li>Map dan Set</li>
+                        </ul>
+                        <button class="learn-button">Pelajari</button>
+                    </div>
+
+                    <!-- Step 6 -->
+                    <div class="tutorial-card">
+                        <div class="step-number">6</div>
+                        <h3>Project Akhir</h3>
+                        <p>Mengaplikasikan semua pengetahuan dalam project nyata</p>
+                        <ul class="step-details">
+                            <li>Perencanaan project</li>
+                            <li>Implementasi kode</li>
+                            <li>Testing dan debugging</li>
+                        </ul>
+                        <button class="learn-button">Pelajari</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">Tentang Kami</h2>
+                <p>Kami menyediakan materi pembelajaran bahasa pemrograman yang mudah dipahami untuk semua tingkat keahlian.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 CodeLearn. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/Home/index.js"></script>
+</body>
+</html>
